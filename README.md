@@ -18,6 +18,16 @@
   - Found main characters: characters whose number of lines exceeds the 95th percentile.
   - Applied text-embedding-ada-002 transforming model from OpenAI
   - Dropped files < 5mb
+ 
+## Modeling
+- The model is based on an SVM classifier. Each trait of the Big Five personality was trained separately.
+
+## Dashboard
+- [Big Five Personality Prediction of Movie Characters](https://big-five-personality-prediction-of-movie-cpc2.onrender.com)
+  - It might take a minute for the website to load.
+
+![Let's try it out!](dashboard/screenshot_example.png) 
+
 
 
 
